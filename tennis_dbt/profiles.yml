@@ -1,0 +1,19 @@
+tennis_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: TRANSFORMER
+      warehouse: TRANSFORMING
+      database: DB_DANIEL
+      schema: TENNIS_DBT
+      account: N/A
+      user: N/A
+    prd:
+      type: snowflake
+      role: TRANSFORMER
+      warehouse: TRANSFORMING
+      database: DB_DANIEL
+      schema: TENNIS
+      account: N/A
+      user: N/A
