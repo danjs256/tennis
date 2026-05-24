@@ -6,14 +6,12 @@ tennis_dbt:
       role: TRANSFORMER
       warehouse: TRANSFORMING
       database: DB_DANIEL
-      schema: TENNIS_DBT
-      account: N/A
-      user: N/A
-    prd:
+      schema: MWS_DEV
+      threads: 8
+    prod:
       type: snowflake
       role: TRANSFORMER
       warehouse: TRANSFORMING
       database: DB_DANIEL
-      schema: TENNIS
-      account: N/A
-      user: N/A
+      schema: MWS
+      threads: 8

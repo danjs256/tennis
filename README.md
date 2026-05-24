@@ -1,2 +1,2 @@
 # tennis
-Development and testing of a framework for dbt Core running natively within Snowflake Workspaces.
+Development and testing of a framework for running dbt Core natively within Snowflake Workspaces.

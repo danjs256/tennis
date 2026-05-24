@@ -1,0 +1,23 @@
+/*
+Remember to change SET_RECORD_TYPE union to this!
+1: ab cd original
+2: ba dc partner
+3: cd ab opponent direct
+4: dc ba opponent partner
+5: ab dc repeat with flipped opposition
+6: ba cd
+7: cd ba
+8: dc ab
+*/
+
+
+/**************************
+THINGS TO CLEAN WHEN READY:
+Names with multipla spaces (Pete W's, Ken le Maitre)
+Teams with numeric prefix
+Round numbers (finals and wooden spoon)
+Test result aggregates
+ - Findings?
+Cancelled status/reason logic
+Result aggregates
+**************************/
